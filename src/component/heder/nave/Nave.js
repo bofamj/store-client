@@ -1,8 +1,57 @@
 import logo from ".././../.././assets/images/logo.png";
 import "./nave.css";
+import Container from "react-bootstrap/Container";
+import Navbar from "react-bootstrap/Navbar";
+import Nav from "react-bootstrap/Nav";
+import NavDropdown from "react-bootstrap/NavDropdown";
+
 const Nave = () => {
   return (
-    <div className="container pt-2">
+    <Navbar>
+      <Container className="d-flex justify-content-between">
+        <Navbar.Brand href="#home">
+          <img src={logo} className="img-fluid" alt="..."></img>
+        </Navbar.Brand>
+        <Navbar.Toggle />
+        <Navbar.Collapse className="justify-content-between flex-grow-0">
+          <Nav className="me-1 d-flex justify-content-between">
+            <Nav.Link href="#home">Home</Nav.Link>
+            <Nav.Link href="#link">Men's</Nav.Link>
+            <Nav.Link href="#link">Women's</Nav.Link>
+            <Nav.Link href="#link">Kid's</Nav.Link>
+            <NavDropdown title="Pages" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Features" id="basic-nav-dropdown">
+              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.2">
+                Another action
+              </NavDropdown.Item>
+              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
+              <NavDropdown.Divider />
+              <NavDropdown.Item href="#action/3.4">
+                Separated link
+              </NavDropdown.Item>
+            </NavDropdown>
+            <Nav.Link href="#link">Explore</Nav.Link>
+          </Nav>
+        </Navbar.Collapse>
+      </Container>
+    </Navbar>
+  );
+};
+
+export default Nave;
+
+/*<div className="container pt-2">
       <nav className="navbar navbar-expand-lg navbar-light bg-white ">
         <div className="container-fluid ">
           <div>
@@ -105,8 +154,4 @@ const Nave = () => {
         </div>
       </nav>
       <hr className="naveLine" />
-    </div>
-  );
-};
-
-export default Nave;
+    </div> */

@@ -1,11 +1,14 @@
 import "./App.css";
 import Nave from "./component/heder/nave/Nave";
+import Hero from "./component/body/hero/Hero";
 
 function App() {
   return (
-    <div className="">
+    <>
       <Nave />
-    </div>
+      <hr className="naveLine" />
+      <Hero />
+    </>
   );
 }
 

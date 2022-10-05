@@ -1,0 +1,35 @@
+.hero_section {
+  margin-top: 3.5rem;
+  position: relative;
+}
+.hero-img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+.hero_img_text {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: start;
+}
+.hero_img_text h1 {
+  font-size: 3.2rem;
+}
+.categorys_img {
+  width: 47%;
+  margin: 0 0 0 14px;
+}
+.hero_bottom_img {
+  margin-top: 14px;
+}
+.hero-img-container {
+  margin: 0 10px 0 0;
+}
+.hero_img {
+  width: 98%;
+  margin: 0 0 10px 0;
+}
