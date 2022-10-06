@@ -1,0 +1,22 @@
+/*slide arrow*/
+.slick-arrow::before {
+  color: black;
+}
+
+.slide_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  padding-right: 10%;
+}
+.title {
+  margin-top: 100px !important;
+}
+.card-continer {
+  margin-bottom: 100px !important;
+}
+.slid-img {
+  padding: 0 10px 0 0;
+  width: 350px;
+}
