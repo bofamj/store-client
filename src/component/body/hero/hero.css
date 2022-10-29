@@ -23,12 +23,12 @@
   width: 47%;
   /* margin: 0 0 0 14px; */
 }
-.hero_bottom_img {
-  /* margin-top: 14px; */
+/* .hero_bottom_img {
+ margin-top: 14px; 
 }
 .hero-img-container {
-  /* margin: 0 10px 0 0; */
-}
+  /* margin: 0 10px 0 0; 
+} */
 .hero_img {
   width: 98%;
   margin: 0 0 25px 0;
@@ -40,8 +40,8 @@
 .img-container img {
   width: 100%;
 }
-.img-container-sec {
-}
+/* .img-container-sec {
+} */
 .img-container-row {
   width: 100%;
   height: 50%;

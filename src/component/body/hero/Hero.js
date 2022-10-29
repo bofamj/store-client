@@ -3,8 +3,9 @@ import "./hero.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from "react-bootstrap/Image";
 
-//*emges
+//*Image
 import top_img from "../../.././assets/images/baner-right-image-01.jpg";
 import top_img_left from "../../.././assets/images/baner-right-image-02.jpg";
 import bottom_img from "../../.././assets/images/baner-right-image-03.jpg";
@@ -26,26 +27,26 @@ const Hero = () => {
               Purchese Now!
             </botton>
           </div>
-          <img src={hero_img} className="img-fluid hero_img"></img>
+          <Image src={hero_img} className="img-fluid hero_img" />
         </Col>
         <Col className="img-container-sec " s={12}>
           <Row className="img-container-row ">
             <Col className="img-container" s={12}>
-              <img src={top_img} className="img-fluid  categorys_img"></img>
+              <Image src={top_img} className="img-fluid  categorys_img" />
             </Col>
             <Col className="img-container" s={12}>
-              <img src={top_img_left} className="img-fluid categorys_img"></img>
+              <Image src={top_img_left} className="img-fluid categorys_img" />
             </Col>
           </Row>
           <Row className="img-container-row ">
             <Col className="img-container" s={12}>
-              <img src={bottom_img} className="img-fluid categorys_img"></img>
+              <Image src={bottom_img} className="img-fluid categorys_img" />
             </Col>
             <Col className="img-container" s={12}>
-              <img
+              <Image
                 src={bottom_img_left}
                 className="img-fluid categorys_img"
-              ></img>
+              />
             </Col>
           </Row>
         </Col>

@@ -12,20 +12,20 @@ const demo2 = [
   {
     img: poto04,
     des: "mustafa",
-    name: "",
-    rating: "",
+    name: "ali",
+    rating: "4.5",
   },
   {
     img: poto05,
     des: "mohamed",
-    name: "",
-    rating: "",
+    name: "moh",
+    rating: "3.7",
   },
   {
     img: poto06,
     des: "lila",
-    name: "",
-    rating: "",
+    name: "nana",
+    rating: "4.9",
   },
 ];
 

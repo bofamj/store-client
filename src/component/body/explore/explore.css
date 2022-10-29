@@ -1,0 +1,11 @@
+/* .dec-cont {
+  background-color: #b9b7b7;
+} */
+/* .spaicing {
+  gap: 5%;
+} */
+.category-img {
+  width: 150px;
+  height: 250px;
+  object-fit: cover;
+}

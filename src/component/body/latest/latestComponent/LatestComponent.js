@@ -1,6 +1,7 @@
 import "./latestComponent.css";
 import Slider from "react-slick";
 import Container from "react-bootstrap/Container";
+import Image from "react-bootstrap/Image";
 
 const LatestComponent = (demo) => {
   const settings = {
@@ -22,7 +23,7 @@ const LatestComponent = (demo) => {
         {demo.demo.map((demo) => {
           return (
             <div className="card-continer">
-              <img src={demo.img} className="slid-img"></img>
+              <Image src={demo.img} className="slid-img" />
               <h1>{demo.des}</h1>
               <spane>{demo.rating}</spane>
               <p>{demo.price}</p>
