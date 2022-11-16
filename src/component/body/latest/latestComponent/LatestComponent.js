@@ -10,20 +10,44 @@ const LatestComponent = (demo) => {
     speed: 500,
     slidesToShow: 3,
     slidesToScroll: 3,
+    initialSlide: 0,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 3,
+          infinite: true,
+          dots: true,
+        },
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 2,
+          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        },
+      },
+    ],
   };
   console.log(demo);
   return (
-    <Container className="slider_container ">
+    <Container className="slider_container  ">
       <h2 className=" mt-5 title"> {demo.demo[0].title}</h2>
       <p>{demo.demo[0].titleDes}</p>
-      <Slider
-        {...settings}
-        className="d-flex justify-content-center align-items-center"
-      >
+      <Slider {...settings} className="d-flex  mx-4">
         {demo.demo.map((demo) => {
           return (
             <div className="card-continer">
-              <Image src={demo.img} className="slid-img" />
+              <Image src={demo.img} className="slid-img  img-fluid" />
               <h1>{demo.des}</h1>
               <spane>{demo.rating}</spane>
               <p>{demo.price}</p>

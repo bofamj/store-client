@@ -11,6 +11,8 @@ import top_img_left from "../../.././assets/images/baner-right-image-02.jpg";
 import bottom_img from "../../.././assets/images/baner-right-image-03.jpg";
 import bottom_img_left from "../../.././assets/images/baner-right-image-04.jpg";
 import hero_img from "../../.././assets/images/left-banner-image.jpg";
+import LatestClothes from "../latest/LatestClothes";
+import Explore from "../explore/Explore";
 
 const Hero = () => {
   return (
@@ -51,6 +53,10 @@ const Hero = () => {
           </Row>
         </Col>
       </Row>
+      <hr className="naveLine" />
+      <LatestClothes />
+      <hr className="naveLine" />
+      <Explore />
     </Container>
   );
 };

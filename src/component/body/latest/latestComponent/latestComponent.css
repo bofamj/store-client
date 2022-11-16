@@ -6,7 +6,7 @@
 .slide_content {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   padding: 1.5rem;
   padding-right: 10%;
 }
