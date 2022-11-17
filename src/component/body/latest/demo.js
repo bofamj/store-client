@@ -6,11 +6,11 @@ import poto05 from "../../.././assets/images/men-02.jpg";
 import poto06 from "../../.././assets/images/team-member-02.jpg";
 
 const demo = [
-  {
+  /* {
     title: "Men's Latest",
     titleDes:
       "Details to details is what makes Hexashop different from the other themes.",
-  },
+  }, */
   {
     img: poto01,
     des: "Love Nana ‘20",
